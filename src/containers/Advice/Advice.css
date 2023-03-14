@@ -1,0 +1,20 @@
+.advice {
+  padding: 0 160px;
+}
+
+.advice__heading {
+  width: 244px;
+  height: 467px;
+  line-height: 130px;
+  color: #ffffff;
+  z-index: -1;
+  margin-bottom: 87px;
+}
+
+.advice__heading p {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  letter-spacing: 5.22px;
+  line-height: 130px;
+}

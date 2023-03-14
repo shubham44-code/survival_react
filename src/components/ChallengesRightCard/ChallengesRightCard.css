@@ -1,0 +1,49 @@
+.challenges__right__content {
+  width: 431px;
+  margin-right: 18px;
+}
+
+.challenges__right__content p:nth-child(1) {
+  line-height: 90px;
+}
+
+.challenges__right__content p:nth-child(2) {
+  line-height: 37px;
+}
+
+.challenges__right__content p:nth-child(3) {
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  margin: 18px 0;
+}
+
+.challenges__right__content p:nth-child(4) {
+  margin-top: 8px;
+}
+
+.challenges__right__heading {
+  width: 431px;
+  color: #ffffff;
+  word-wrap: break-word;
+  line-height: 130px;
+  letter-spacing: 5.22px;
+  position: relative;
+  z-index: -1;
+}
+
+.challenges__right__heading::before {
+  content: "01";
+  font-size: 60px;
+  color: var(--pink-color);
+  position: absolute;
+  line-height: 60px;
+  top: -12%;
+  left: -10%;
+}
+
+.img__shoes {
+  width: 643px;
+  height: 528px;
+  margin-top: -155px;
+  z-index: 10;
+}

@@ -1,0 +1,61 @@
+.main__slider__wrapper {
+  width: calc(100% - 378px);
+  position: relative;
+  overflow: hidden;
+}
+
+.main__slider {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+}
+
+.customNextBtn,
+.customPrevBtn,
+.customNextBtn__advice,
+.customPrevBtn__advice {
+  position: absolute;
+  z-index: 99;
+  width: 66px;
+  height: 66px;
+  background: var(--pink-color);
+  border: none;
+  cursor: pointer;
+}
+
+.customNextBtn img,
+.customPrevBtn img,
+.customNextBtn__advice img,
+.customPrevBtn__advice img {
+  width: 16px;
+  height: 24px;
+}
+
+.customNextBtn,
+.customNextBtn__advice {
+  bottom: 135px;
+  right: 160px;
+  transform: rotate(-90deg);
+}
+
+.customPrevBtn,
+.customPrevBtn__advice {
+  bottom: 70px;
+  right: 160px;
+  background: var(--light-color);
+  color: var(--black-color);
+  transform: rotate(90deg);
+}
+
+.slider__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.disable {
+  opacity: 0.4;
+  user-select: none;
+  /* pointer-events: none; */
+  cursor: no-drop;
+}
+

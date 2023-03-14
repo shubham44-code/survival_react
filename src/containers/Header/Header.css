@@ -1,0 +1,34 @@
+.header__wrapper {
+  max-width: 1920px;
+  margin-top: 30px;
+  padding: 0 51px 0 160px;
+}
+
+.logo {
+  width: 201px;
+  height: 93px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav__wrapper {
+  margin-bottom: 9px;
+}
+
+.nav {
+  padding-right: 58px;
+  border-right: 1px solid #000000;
+}
+
+.links {
+  width: 483px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  line-height: 52px;
+}

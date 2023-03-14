@@ -1,0 +1,30 @@
+.challenges__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  margin-top: 30px;
+  /* margin-bottom: 67px; */
+  padding: 0 160px;
+}
+
+.challenges__left {
+  width: calc(100% - 540px);
+  margin-bottom: 67px;
+}
+
+.challenges__right {
+  width: 643px;
+  margin-left: 30px;
+  margin-bottom: 67px;
+}
+
+.challenges__left__heading {
+  line-height: 60px;
+  margin-bottom: 38px;
+}
+
+.challenges__card {
+  max-width: 1006px;
+  /* height: 309px; */
+  margin-bottom: 40px;
+  /* flex-wrap: wrap; */
+}

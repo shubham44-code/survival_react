@@ -1,0 +1,41 @@
+.nav__buttons {
+  margin-left: 53px;
+}
+
+.nav__buttons p {
+  margin-right: 49px;
+  line-height: 52px;
+}
+
+.nav__buttons .profile {
+  margin-right: 52px;
+}
+
+.profile {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile img {
+  position: absolute;
+  bottom: -15%;
+  width: 105%;
+  height: 105%;
+}
+
+.search__button {
+  width: 46px;
+  height: 46px;
+  background: var(--pink-color);
+  border: none;
+  border-radius: 50px;
+}
+
+.search__button img {
+  width: 16px;
+  height: 18px;
+}

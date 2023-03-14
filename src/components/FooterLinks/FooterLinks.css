@@ -1,0 +1,27 @@
+.foooter__navigation {
+  width: calc(100% - 376px);
+}
+
+.advices__footer {
+  margin: 0 116px;
+}
+
+.challenges__footer__links a,
+.advices__footer__links a,
+.gallery__footer__links a {
+  color: #edf0f2;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.challenges__footer__links {
+  margin-bottom: 47px;
+}
+
+.challenges__footer__social_links {
+  width: 105px;
+}
